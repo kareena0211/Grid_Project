@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+    background-position: center;
+
+}
+
+
+.heading{
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-block : 22px;
+    font-family: Poppins, sans-serif;
+
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    gap: 50px;
+    margin: 50px auto;
+    justify-content: center;  /*horizontal center*/
+    align-items: center;      /* vertically center */
+    
+}
+
+.grid-item{
+    height: 300px;
+    width: 400px;
+    /* border: 3px solid green; */
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 30px;
+    margin-inline: -15px;
+    margin-block: -18px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+
+
+.grid-item:hover{
+    transform: scale(1.04);
+}
+
+/* ..........................  IMAGES .......................... */
+
+.image {
+    /* border: 2px dashed black; */
+    height: 6rem;
+    margin: 13px 115px;;
+}
+
+#javascript{
+    height: 6.5rem;
+    margin: 3px 108px;
+}
+
+/* .........................ALL LANGUAGE NAME ENTRING........................ */
+
+.name{
+    text-align: center;
+    font-size: 22px;
+    /* border: 2px dashed red; */
+    width: 30%;
+    margin:  -7px 106px;
+}
+
+/* ................................. STYLING OF PARAGROPH */
+
+.paragraph{
+    /* border: 2px solid blue; */
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    font-family: Poppins, sans-serif;
+    color: #777777;
+}
+
+/*  .......................................... DESIGNING OF BUTTON.................... */
+
+.button{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 14px;
+    cursor: pointer;
+    margin-inline: 6.7rem;
+    margin-block: 10px;
+    border: none;
+    font-size: 1rem;
+    
+
+}
+
+.button:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: #fff;
+}
